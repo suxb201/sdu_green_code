@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 def green(html):
     html = html.replace('"if_pass":"2"', '"if_pass":"1"')  # change 1
-    html = html.replace('禁止通行', '可通行')  # change 1
+    html = html.replace('禁止通行', '可通行')  # change 5
     soup = BeautifulSoup(html, "html.parser")
 
     divs = soup.find_all("div", "security-panel-body")
