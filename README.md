@@ -20,3 +20,5 @@
 3. 设置 → 通用 → 描述文件 → mitmproxy → 安装 （期间会要求输入密码）
 4. 设置→ 通用 → 关于本机 → 证书信任设置 → mimproxy 打勾
 5. 打开 “山大校园通”，扫码即可
+
+![./images/demo.png](./images/demo.png)
