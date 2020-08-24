@@ -21,4 +21,4 @@
 4. 设置→ 通用 → 关于本机 → 证书信任设置 → mimproxy 打勾
 5. 打开 “山大校园通”，扫码即可
 
-![](./doc/demo.png)
+![./doc/demo.png](./doc/demo.png)
