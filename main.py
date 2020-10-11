@@ -14,16 +14,18 @@ def green(html):
     div = soup.find("div", "two-btn")
     del div["style"]  # change 4
 
-
-
     return str(soup)
 
 
 def response(flow: flow):
-
     if "https://sdxyt.sdu.edu.cn/tp_jp/jp/temperature" in flow.request.url:
         print(flow.request.url)
         html = flow.response.get_text()
         html = green(html)
         flow.response.set_text(html)
 
+
+def request(flow: flow):
+    # “进门” “出门” 按钮重定向，避免记录信息（虽然猜测后台不会记录的...
+    if '/tp_jp/jp/returnSchool' in flow.request.url:
+        flow.request.path = '/tp_jp/jp/mobileHome'
