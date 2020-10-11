@@ -18,7 +18,7 @@ def green(html):
 
 
 def response(flow: flow):
-    if "https://sdxyt.sdu.edu.cn/tp_jp/jp/temperature" in flow.request.url:
+    if "https://sdxyt.sdu.edu.cn/tp_jp/jp/temperature?place_id" in flow.request.url:
         print(flow.request.url)
         html = flow.response.get_text()
         html = green(html)
