@@ -23,5 +23,5 @@
 
 # 针对 Android 用户
 
-大部分安卓用户无法使用此工具，原因：https://testerhome.com/topics/17746
+大部分安卓用户无法使用此工具，原因：https://testerhome.com/topics/17746  
 但已知有使用华为手机的同学成功使用此工具，原因不明。
